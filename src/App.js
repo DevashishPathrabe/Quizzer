@@ -78,7 +78,7 @@ class App extends Component {
 			showResult: false,
 			score: 0,
 			showHomePage: true,
-			darkThemeSelected: false,
+			darkThemeSelected: localStorage.getItem('quizzer-theme') === 'dark',
 		};
 		this.timerId = null;
 	}
@@ -181,7 +181,9 @@ class App extends Component {
 		this.setState((prevState) => ({
 			...prevState,
 			darkThemeSelected: !prevState.darkThemeSelected,
-		}));
+		}), () => {
+			localStorage.setItem('quizzer-theme', this.state.darkThemeSelected ? 'dark' : 'light');
+		});
 	};
 
 	render() {
