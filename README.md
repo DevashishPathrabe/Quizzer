@@ -1,5 +1,7 @@
 # Quizzer
 
+This application is deployed and running on Heroku cloud at [Quizzer](https://quizzer-devashish.herokuapp.com/)
+
 ## INTRODUCTION
 
 * Quizzer application has general questions of varying difficulty levels.  
@@ -32,5 +34,4 @@
 * If you give correct answers to all the questions, a banner will appear which will show ‘Congratulations! You won.’.  
 ![Won Page](./images/Won_Page.png)  
 * If you answer any of the question incorrectly or fail to give answer in allotted time, a banner will appear showing 'You lost. Better luck next time!'.   
-![Lost Page](./images/Lost_Page.png)  
-* This application is deployed and running on Heroku cloud at [Quizzer](https://quizzer-devashish.herokuapp.com/) 
+![Lost Page](./images/Lost_Page.png)   
