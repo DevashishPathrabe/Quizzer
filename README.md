@@ -33,4 +33,4 @@
 ![Won Page](./images/Won_Page.png)  
 * If you answer any of the question incorrectly or fail to give answer in allotted time, a banner will appear showing 'You lost. Better luck next time!'.   
 ![Lost Page](./images/Lost_Page.png)  
-* This application is deployed and running on Heroku cloud at https://quizzer-devashish.herokuapp.com/ 
+* This application is deployed and running on Heroku cloud at [Quizzer](https://quizzer-devashish.herokuapp.com/) 
